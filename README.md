@@ -1,9 +1,10 @@
-# Resilient Multi-Page Property Listings Scraper for NigeriaPropertyCentre
+# Resilient Property Listings Scraper for NigeriaPropertyCentre
+
 A web scraping tool to systematically collect property data (title, address, price, agent and their contact info, bedroom/bathroom/toilet/parking/SQM, and listing URL) across multiple pages and cities. Supports flexible search filters, error-resilient extraction, structured retry handling, and automated post-scrape data normalization using Pandas
 
 ![zachary-moneypenny-BCIgm0Qnfo8-unsplash](https://github.com/user-attachments/assets/e0c86087-c878-48f1-ab2a-545d5de70a3b)
 
-Developed a robust Python-based web scraping pipeline to extract structured real estate data from NigeriaPropertyCentre.com. 
+Developed a web scraping pipeline to extract structured real estate data from NigeriaPropertyCentre.com. 
 
 The scraper uses Playwright to interact with JavaScript-rendered listings and systematically navigates paginated results based on configurable search parameters such as listing type, city, and bedroom count. It extracts key property attributes including price, address, agent details, and property features (bedrooms, bathrooms, parking, and area).
 
